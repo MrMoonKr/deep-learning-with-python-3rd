@@ -1,3 +1,60 @@
+# 책 부록 소스 프로젝트 입니다
+
+- 직무 교육( OJT, On the job Training )을 위해서 생성.  
+- 진행중( WIP, Work on Progress ).  
+  + ...
+
+
+## 책 관련 링크  
+
+<img src="https://m.media-amazon.com/images/I/61Xt0FMZ2jL._SY522_.jpg" alt="" height="256px" align="right">
+
+- [Deep Learning with Python, Third Edition [ 원서 ]](https://www.manning.com/books/deep-learning-with-python-third-edition)  
+
+- [Deep Learning with Python, Third Edition [ 온라인 버전 ]](https://deeplearningwithpython.io/chapters/)  
+
+- [Deep Learning with Python, Third Edition [ 번역서 없음 ]](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365783770) 
+
+- [ 케라스 창시자에게 배우는 딥러닝 2nd [ 번역서 ]](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=299812465)  
+
+
+## 시스템 환경  
+
+- 시스템 ( Computer System )  
+
+  - AMD Ryzen 9 7900X 12-Core Processor
+  - 32G RAM
+  - NVIDIA Geforce RTX 3060 12GB
+  - SSD 2TB
+  - Windows 11 64bit Korean
+
+- 파이썬 ( Python 3.12 )  
+
+  - [Python Download](https://www.python.org/downloads/)  
+    - [v3.12.0 for Windows](https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe)  
+    - [v3.11.9 for Windows](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)  
+
+- 파이썬 가상환경 ( venv )
+
+  > 윈도우즈 파워쉘 실행 정책 변경 필요할 수 있음
+    ```
+    $ Get-ExecutionPolicy
+    $ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+    $ Get-ExecutionPolicy
+    ```
+  > venv 환경 실행
+    ```
+    $ python -m venv .venv
+    $ .venv/Scripts/Activate.ps1 
+    $ (.venv-) python --version
+    $ (.venv-) pip --version
+    ```
+
+
+---
+---
+---
+
 # Companion notebooks for Deep Learning with Python
 
 This repository contains Jupyter notebooks implementing the code samples found in the book [Deep Learning with Python, third edition (2025)](https://www.manning.com/books/deep-learning-with-python-third-edition?a_aid=keras&a_bid=76564dff)
