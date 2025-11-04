@@ -51,6 +51,90 @@
     ```
 
 
+
+## 의존 패키지
+
+**다음과 같은 순서로 설치하세요.**
+  
+```
+$ (.venv) pip install ipykernel numpy matplotlib scipy  
+$ (.venv) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+$ (.venv) pip install lightning
+```
+
+**모듈정보**
+- numpy
+  - [pypi](https://pypi.org/project/numpy/)  
+    ```
+    $ (.venv) pip install numpy
+    ```
+  - Fundamental Package for Array Computing in Python
+
+- matplotlib
+  - [pypi](https://pypi.org/project/matplotlib/)  
+    ```
+    $ (.venv) pip install matplotlib
+    ```
+  - Python Plotting Package
+
+- scipy  
+  - [pypi](https://pypi.org/project/scipy/)  
+    ```
+    $ (.venv) pip install scipy
+    ```
+  - Fundamental algorithms for scientific computing in Python
+
+- scikit-learn
+  - [pypi](https://pypi.org/project/scikit-learn/)  
+    ```
+    $ (.venv) pip install matplotlib
+    ```
+  - A set of python modules for machine learning and data mining
+
+- ipykernel
+  - [pypi](https://pypi.org/project/ipykernel/)  
+    ```
+    $ (.venv) pip install ipykernel
+    ```
+  - [ipykernel](https://github.com/ipython/ipykernel)  
+  - IPython Kernel for Jupyter
+
+- PyTorch
+  - [pypi](https://pypi.org/project/torch/)  
+    ```
+    $ (.venv) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+    ```
+  - [PyTorch](https://pytorch.org/)  
+  - Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  - nvidia-smi v531.15
+  - cuda-toolkit v12.8
+
+- PyTorch Lightning
+  - [pypi](https://pypi.org/project/lightning/)  
+    ```
+    $ (.venv) pip install lightning
+    ```
+  - [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/)  
+  - The deep learning framework to pretrain, finetune and deploy AI models  
+  - PyTorch Lightning is just organized PyTorch - Lightning disentangles PyTorch code to decouple the science from the engineering.
+  - ...  
+
+- ...
+  - [pypi]()  
+    ```
+    $ (.venv) pip install ...
+    ```
+  - [...]()
+  - ...  
+
+
+## 기타
+
+- ...  
+
+- ...  
+
+
 ---
 ---
 ---
